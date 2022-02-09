@@ -3,8 +3,11 @@ name = "image2bytearray"
 version = "0.1.0"
 edition = "2021"
 repository = "https://github.com/Philanatidae/image2bytearray"
+description = "A simple CLI tool to convert an image into a friendly byte array that can be directly embedded into source code."
 license = "GPL-2.0-only"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+stb_image_rust = "2.27.2"
+clap = { version = "3.0.14", features = ["derive"] }
