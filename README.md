@@ -4,4 +4,4 @@ A simple CLI tool to convert an image into a friendly byte array that can be dir
 
 ## License
 
-This program is licensed under the GPLv2 license. See `LICENSE`.
+This program is licensed under the [GPL-2.0-only](https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html) license. See `LICENSE`.
