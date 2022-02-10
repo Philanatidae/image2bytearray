@@ -55,9 +55,15 @@ fn main() {
             }
             byte_array_str.push_str(" ");
         }
-        byte_array_str.push_str("\n");
+        if hi != height - 1 {
+            byte_array_str.push_str("\n");
+        }
     }
-    byte_array_str.push_str("]");
+    // There is a trailing comma and space that is not valid in most languages
+    byte_array_str.pop();
+    byte_array_str.pop();
+
+    byte_array_str.push_str("\n]");
 
     println!("{}", byte_array_str);
 
